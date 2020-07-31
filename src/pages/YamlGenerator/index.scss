@@ -1,0 +1,145 @@
+.Homepage{
+    width:100%; // calc(100vw - 16rem);
+    height: 100%; // calc(100vh - 3rem);
+    overflow: auto;
+    background-color: #F9FAFF;
+    .ant-tabs-ink-bar{
+        background-color:#465AB0!important;
+        border-radius: 10px;
+        height: 3px!important;
+    }
+    .ant-tabs-tab-active{
+        .ant-tabs-tab-btn{
+            color:#465AB0!important;
+            font-weight: bold!important;
+        }
+    }
+    .ant-tabs-tab{
+        &:hover{
+            color:#096dd9;
+        }
+    }
+    .ant-tabs-nav-wrap{  
+        .ant-tabs-tab:nth-child(1){
+            margin-left: 4rem;
+        }
+    }
+
+    .OPERATION_box{
+        display: flex;
+        justify-content: start;
+        span{
+            width:50%;
+        }
+    }
+    .tab{
+        width: 100%;
+        height:100%;
+        padding:1% 0 4% 0;
+        .tab_content{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            padding: 0 4rem;
+            .tab_content_iptarea{
+                display:flex;
+                // width: 38rem;
+                .tab-form-title{
+                    color: #8c8c8c!important;
+                    margin-bottom: .2rem;
+                    margin-left: .3rem;
+                }
+                .ant-form-item{
+                    width: auto;
+                    .ant-select{
+                        max-width: 90%;
+                    }
+                }
+                .ant-form-item:nth-child(1){
+                    width: 12rem;
+                }
+                .ant-form-item:nth-child(2){
+                    // width: 46%;
+                    width: 12rem;
+
+                }
+                .ant-form-item:nth-child(3){
+                    width: 18rem;
+                    display: flex;
+                }
+
+                /* history tab */
+                .tab_content_delete_btn{
+                    width:100%;
+                    margin:1rem 0 2rem 0;
+                    display: block;
+                    .ant-btn-dangerous{
+                        float: right;
+                    }
+                }
+            }
+            .tab_content_table{
+                .ant-table-body{
+                    overflow-y: scroll;
+                    max-height: calc(100vh - 24rem)!important;
+                }
+                .ant-pagination {
+                    li{
+                        border-radius: 0;
+                    }
+                }
+                .ant-pagination-item, .ant-pagination-prev, .ant-pagination-next{
+                    &:hover{
+                        border-color:#1d39c4!important;
+                    }
+                    a, button{
+                        cursor: pointer;
+                        color:#003a8c;
+                        &:hover{
+                            border-color:#1d39c4!important;
+                            color:#1d39c4!important;
+                        }   
+                    }
+                }
+                .ant-pagination-item-active{
+                    border-color: #003a8c;
+                    
+                    
+                }
+            }
+            .tab_content_upload{
+                display: flex;
+                margin-top: .4rem;
+                margin-bottom: 1.6rem;
+                width: 100%;
+                // max-width: 70%;
+                // min-width:30rem;
+                .ant-select-multiple{
+                    width: 42rem;
+                }
+                .tab_upload_btn_grp{
+                    display:flex;
+                    .tab_upload_btn{
+                        margin-right: .5rem;
+                        // width: 4rem;
+                    }
+                }
+            }
+            .tab_content_generator_btn{
+                margin:2rem 0 0 0;
+                .ant-btn:hover, .ant-btn:focus{
+                    color: #b5f5ec;
+                    background-color: #08979c;
+                    border-color: #08979c;
+                }
+                .ant-btn{
+                    float: right;
+                    margin-right:0%;
+                    color: #e6fffb;
+                    background-color: #006d75;
+                    border-color: #006d75;
+                }
+            }
+        }
+    }
+}

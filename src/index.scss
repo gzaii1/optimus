@@ -1,0 +1,95 @@
+
+html, body{
+    --antd-wave-shadow-color:#1f1f1f!important;
+
+    .ant-table {
+        .Even{
+            background-color: #fff!important;
+        }
+        .Odd{
+            background-color: #F6F7FC!important;
+        }
+
+        table{
+            border-color:#bfbfbf!important;
+            td{
+                border-right: 1px solid #f0f0f0!important;
+            }
+            td:last-child{
+                border-right:none!important;
+            }
+        }
+        .ant-table-thead {
+            th{
+                background-color: #E6E9F2!important;
+                color: #8c8c8c;
+                border-right: 1px solid #f0f0f0!important;
+            }
+            th:last-child{
+                border-right:none!important;
+            }
+        }        
+    }
+    
+    .ant-message{
+        z-index: 9999999;
+    }
+    button{
+        border-radius: 5px!important;
+    }
+    input.ant-input {
+        border:1px solid #d9d9d9!important;
+        // box-shadow: 0!important;
+    }
+
+    .diy_dark_blue.ant-btn-primary{
+        background-color: #002561!important;
+        border-color:#002561!important;
+        &:hover{
+            background-color: #1d39c4!important;
+            border-color:#1d39c4!important;
+        }
+    }
+
+    .ant-select-focused.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+        border-color: #0050b3!important;
+        box-shadow:0 0 0 2px rgba(0,80,179,.2)!important;
+    }
+    .ant-select-selector, .ant-input{
+        // border-radius: 0!important;
+        &:hover{
+            // border-radius: 0!important;
+            border-color:#1d39c4!important;
+        }
+    }
+
+
+    .diy_dark_red.ant-btn-primary{
+        background-color: #a8071a!important;
+        border-color:#a8071a!important;
+        &:hover{
+            background-color: #cf1322!important;
+            border-color:#cf1322!important;
+        }
+    }
+    .diy_light_blue.ant-btn-primary{
+        background-color: #40a9ff!important;
+        border-color:#40a9ff!important;
+        &:hover{
+            background-color:#69c0ff!important;
+            border-color:#69c0ff!important;
+        }
+    }
+    .ant-menu-item-selected{
+        background-color: #EAEAEA!important;
+        color:#505050;
+        &:hover{
+            color:#141414!important;
+        }
+    }
+    .ant-menu-item, .ant-menu-item-active{
+        &:hover{
+            color:#141414!important;
+        }
+    }
+}

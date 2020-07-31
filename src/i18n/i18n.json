@@ -1,0 +1,42 @@
+{
+    "zhCN":{
+        "pages":{},
+        "components":{
+            "Header":{
+                "button_text": "新建"
+            },
+            "Left":{
+                "Tabs":[
+                    {
+                        "label":"工程", 
+                        "value":"p"
+                    }, 
+                    {
+                        "label":"接口", 
+                        "value":"i"
+                    }
+                ]
+            }
+        }
+    },
+    "en":{
+        "pages":{},
+        "components":{
+            "Header":{
+                "button_text": "NEW "
+            },
+            "Left":{
+                "Tabs":[
+                    {
+                        "label":"Programe", 
+                        "value":"p"
+                    }, 
+                    {
+                        "label":"Interface", 
+                        "value":"i"
+                    }
+                ]
+            }
+        }
+    }
+}
